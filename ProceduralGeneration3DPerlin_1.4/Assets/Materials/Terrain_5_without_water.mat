@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Terrain_5_without_water
+  m_Shader: {fileID: -6465566751694194690, guid: 8fd23e75bc110cb4fa6871a690d0086d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Grass_Texture:
+        m_Texture: {fileID: 2800000, guid: 9c0b1fe1e10bebf438fce8e1ea4e8f50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rocks2_Texture:
+        m_Texture: {fileID: 2800000, guid: 257620d93399d684294b5d14044697b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rocks_Texture:
+        m_Texture: {fileID: 2800000, guid: 409b9912923434444b9ee207662dc9a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sand_Texture:
+        m_Texture: {fileID: 2800000, guid: 03a57c8f8182f0b48b7ac9d7266e0f99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Snow_Texture:
+        m_Texture: {fileID: 2800000, guid: 962dfb6e111771b48a4a37e16636ea63, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StonyGround_Texture:
+        m_Texture: {fileID: 2800000, guid: 8a0de039e2a880848924b40eca8f345a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Water2_Texture:
+        m_Texture: {fileID: 2800000, guid: 4883eeb701868314a91baa19d9dbc33a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Water_Texture:
+        m_Texture: {fileID: 2800000, guid: e47c0418a46d33640a9de3bf28a6707e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Grass_Height: 33
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Rocks2_Height: 80
+    - _Rocks_Height: 67
+    - _Sand_Height: 0
+    - _Snow_Height: 115
+    - _StonyGround_Height: 58
+    - _Water2_Height: 0
+    - _Water_Height: 0.15
+    m_Colors: []
+  m_BuildTextureStacks: []
+--- !u!114 &1050054965548051847
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
